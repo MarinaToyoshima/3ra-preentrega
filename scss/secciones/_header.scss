@@ -1,0 +1,40 @@
+
+.img-logo {
+    width: 150px;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.menu a {
+    color: #e7e2e3;
+    text-decoration: none;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+
+}
+
+/* boostrap navbar */
+.navbar{
+    background-color: #800E13!important;
+    width: 100vw!important;
+    height: 33vh!important;
+    font-family: 'Pacifico', cursive!important;
+    font-family: 'Roboto Slab', serif!important;
+    font-size: 15px!important;
+
+    
+}
+
+/* .menu__inicio ul {
+  
+    width: 100vw;
+    height: 7vh;
+    
+} */
