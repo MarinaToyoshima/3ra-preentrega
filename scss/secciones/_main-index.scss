@@ -1,0 +1,158 @@
+
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-family: 'Roboto Slab', serif;
+    width: 95vw;
+    text-align: center;
+    align-items: center;
+    color: #800E13;
+    font-size: 35px;
+    padding: 1rem;
+    font-weight: 100;
+
+}
+
+.atributos {
+    display: grid;
+    opacity: .7;
+    /* object-fit: cover;
+    align-items: center; */
+    grid-template-columns: repeat(2, 1fr)
+        /* grid-template-rows: repeat(3, 1fr); */
+        /* justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin: auto; */
+}
+
+h3 {
+    text-align: center;
+    align-items: center;
+}
+
+.atributos__1 {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    background-image: url(../recursos/Imagenes/DSC_0570.jpg);
+    width: 50vw;
+    height: 33vh;
+    font-family: 'Merriweather', serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    color: white;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    text-align: center;
+    align-content: flex-end;
+    padding: 0;
+
+}
+
+.atributos__2 {
+    /* display: flex; */
+    color: transparent;
+    font-size: 35px;
+    width: 50vw;
+    height: 33vh;
+    background-image: url(../recursos/Imagenes/ok.jpg);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    padding: 0;
+}
+
+.atributos__3 {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    background-image: url(../recursos/Imagenes/DSC_0627.jpg);
+    width: 50vw;
+    height: 33vh;
+    font-family: 'Merriweather', serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    color: white;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    text-align: center;
+    align-content: flex-end;
+    padding: 0;
+
+}
+
+.atributos__4 {
+    /* display: flex; */
+    color: transparent;
+    font-size: 35px;
+    width: 50vw;
+    height: 33vh;
+    background-image: url(../recursos/Imagenes/viñedos.jpg);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    padding-right: 0;
+
+
+}
+
+
+.atributos__5 {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    background-image: url(../recursos/Imagenes/DSC_0677.jpg);
+    width: 50vw;
+    height: 33vh;
+    font-family: 'Merriweather', serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    color: whitesmoke;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    text-align: center;
+    align-content: flex-end;
+}
+
+.atributos__6 {
+    /* display: flex; */
+    color: transparent;
+    width: 50vw;
+    height: 33vh;
+    font-size: 35px;
+    background-image: url(../recursos/Imagenes/porton.jpg);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+}
+
+.invitacion {
+    font-family: 'Pacifico', cursive;
+    font-family: 'Roboto Slab', serif;
+    color: rgb(168, 29, 29);
+    display: flex;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.invitacion__opciones {
+    font-size: 15px;
+}
+
+
+/* TRANSFORMACIÓN Y ANIMACIONES  */
+.invitación:hover {
+    transform: scale(1.3);
+}
+
+.invitacion {
+    animation-name: entrada-salida;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay: 8s;
+}
