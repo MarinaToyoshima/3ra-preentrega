@@ -1,0 +1,22 @@
+
+// SECCIÓN CERCANÍA
+
+.cercania{
+    display: flex;
+    justify-content: center;
+}
+
+.mapa{
+    display: flex;
+    justify-content: center;
+}
+
+.cercania-ul {
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+iframe{
+    align-items: center;
+}
