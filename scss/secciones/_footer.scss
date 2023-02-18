@@ -1,0 +1,23 @@
+/* FOOTER */
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: $Color-principal;
+}
+
+.footer__título {
+    font-family: 'Merriweather', serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+    display: inline-flexbox;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: #e7e2e3;
+    padding-top: 1rem;
+
+}
+
+.footer__texto {
+    font-size: 13.5px;
+}
